@@ -16,7 +16,6 @@ struct ContentView: View {
     
     
     let mainColor = Color(red: 20/255, green: 28/255, blue: 58/255)
-    let accentColor = Color(red: 48/255, green: 105/255, blue: 240/255)
     
     var body: some View {
         ZStack{
@@ -37,45 +36,24 @@ struct ContentView: View {
                     Button(action: {
                         print("Tapped on Choice 1")
                     }, label: {
-                        Text("Ant")
-                            .font(.body)
-                            .bold()
-                            .multilineTextAlignment(.center)
-                            .padding()
-                            .border(accentColor, width: 4)
+                        ChoiceTextView(choiceText: question.possibleAnswers[0])
                     })
                     Button(action: {
                         print("Tapped on Choice 2")
                     }, label: {
-                        //Text("Beetle")
-                        Text(question.possibleAnswers[0]) // update from hard-code string
-                            .font(.body)
-                            .bold()
-                            .multilineTextAlignment(.center)
-                            .padding()
-                            .border(accentColor, width: 4)
+                        ChoiceTextView(choiceText: question.possibleAnswers[1])
                     })
                     Button(action: {
                         print("Tapped on choice 3")
                     }, label: {
-                        //Text("Moth")
-                        Text(question.possibleAnswers[1]) // update from hard-code string
-                            .font(.body)
-                            .bold()
-                            .multilineTextAlignment(.center)
-                            .padding()
-                            .border(accentColor, width: 4)
+                        ChoiceTextView(choiceText: question.possibleAnswers[2])
+                     
                     })
                     Button(action: {
                         print("Tapped on choice 4")
                     }, label: {
-                        //Text("Fly")
-                        Text(question.possibleAnswers[2]) // update from hard-code string
-                            .font(.body)
-                            .bold()
-                            .multilineTextAlignment(.center)
-                            .padding()
-                            .border(accentColor, width: 4)
+                        ChoiceTextView(choiceText: question.possibleAnswers[3])
+                      
                     })
                 }
             }

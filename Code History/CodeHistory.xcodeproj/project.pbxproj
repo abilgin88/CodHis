@@ -12,6 +12,7 @@
 		85758C52290D140800EBF041 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85758C51290D140800EBF041 /* Assets.xcassets */; };
 		85758C55290D140800EBF041 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85758C54290D140800EBF041 /* Preview Assets.xcassets */; };
 		85BDBA5D290F73B200C899DD /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85BDBA5C290F73B200C899DD /* Question.swift */; };
+		85BDBA5F290F793700C899DD /* ChoiceTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85BDBA5E290F793700C899DD /* ChoiceTextView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		85758C51290D140800EBF041 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		85758C54290D140800EBF041 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		85BDBA5C290F73B200C899DD /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		85BDBA5E290F793700C899DD /* ChoiceTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoiceTextView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 			children = (
 				85758C4D290D140700EBF041 /* Code_HistoryApp.swift */,
 				85758C4F290D140700EBF041 /* ContentView.swift */,
+				85BDBA5E290F793700C899DD /* ChoiceTextView.swift */,
 				85BDBA5C290F73B200C899DD /* Question.swift */,
 				85758C51290D140800EBF041 /* Assets.xcassets */,
 				85758C53290D140800EBF041 /* Preview Content */,
@@ -142,6 +145,7 @@
 			files = (
 				85BDBA5D290F73B200C899DD /* Question.swift in Sources */,
 				85758C50290D140700EBF041 /* ContentView.swift in Sources */,
+				85BDBA5F290F793700C899DD /* ChoiceTextView.swift in Sources */,
 				85758C4E290D140700EBF041 /* Code_HistoryApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
