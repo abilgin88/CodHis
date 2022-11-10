@@ -15,6 +15,7 @@
 		85BDBA5F290F793700C899DD /* ChoiceTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85BDBA5E290F793700C899DD /* ChoiceTextView.swift */; };
 		85BDBA612912032800C899DD /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85BDBA602912032800C899DD /* Game.swift */; };
 		85E78013291D5E33004F6C72 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E78012291D5E33004F6C72 /* WelcomeView.swift */; };
+		85E78015291D64F5004F6C72 /* GameColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E78014291D64F5004F6C72 /* GameColor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		85BDBA5E290F793700C899DD /* ChoiceTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoiceTextView.swift; sourceTree = "<group>"; };
 		85BDBA602912032800C899DD /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 		85E78012291D5E33004F6C72 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		85E78014291D64F5004F6C72 /* GameColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameColor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 			children = (
 				85758C4F290D140700EBF041 /* GameView.swift */,
 				85E78012291D5E33004F6C72 /* WelcomeView.swift */,
+				85E78014291D64F5004F6C72 /* GameColor.swift */,
 				85BDBA5E290F793700C899DD /* ChoiceTextView.swift */,
 			);
 			path = Views;
@@ -169,6 +172,7 @@
 				85E78013291D5E33004F6C72 /* WelcomeView.swift in Sources */,
 				85BDBA612912032800C899DD /* Game.swift in Sources */,
 				85758C50290D140700EBF041 /* GameView.swift in Sources */,
+				85E78015291D64F5004F6C72 /* GameColor.swift in Sources */,
 				85BDBA5F290F793700C899DD /* ChoiceTextView.swift in Sources */,
 				85758C4E290D140700EBF041 /* Code_HistoryApp.swift in Sources */,
 			);
