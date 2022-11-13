@@ -24,4 +24,24 @@ class GameViewModel: ObservableObject {
     var questionProgressText: String {
         "\(game.currentQuestionIndex + 1) / \(game.numberOfQuestions)"
     }
+    
+    // 1
+    var guessWasMade: Bool {
+        if let _ = game.guesses[currentQuestion] {
+            return true
+        } else {
+            return false
+        }
+    }
+    
+    // MARK: - internal Methods
+    // 2
+    func makeGuess(atIndex index: Int) {
+        game.makeGuessForCurrentQuestion(atIndex: index)
+    }
+    
+    // 3
+    func displayNextScreen() {
+        game.updateGameStatus()
+    }
 }

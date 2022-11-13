@@ -30,6 +30,7 @@ struct GameView: View {
             }
         }
         .foregroundColor(Color.white)
+        .environmentObject(viewModel) // new line
     }
     
     struct ContentView_Previews: PreviewProvider {
