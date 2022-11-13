@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct game {
+struct Game {
     
     private(set) var currentQuestionIndex = 0
     private(set) var guesses = [Question: Int]()

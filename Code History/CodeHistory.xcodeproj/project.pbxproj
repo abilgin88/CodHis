@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		850103E029215CD2007E8141 /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 850103DF29215CD2007E8141 /* GameViewModel.swift */; };
 		85758C4E290D140700EBF041 /* Code_HistoryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85758C4D290D140700EBF041 /* Code_HistoryApp.swift */; };
 		85758C50290D140700EBF041 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85758C4F290D140700EBF041 /* GameView.swift */; };
 		85758C52290D140800EBF041 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85758C51290D140800EBF041 /* Assets.xcassets */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		850103DF29215CD2007E8141 /* GameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModel.swift; sourceTree = "<group>"; };
 		85758C4A290D140700EBF041 /* CodeHistory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodeHistory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		85758C4D290D140700EBF041 /* Code_HistoryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Code_HistoryApp.swift; sourceTree = "<group>"; };
 		85758C4F290D140700EBF041 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
@@ -44,6 +46,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		850103DE29215CB2007E8141 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				850103DF29215CD2007E8141 /* GameViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
 		85758C41290D140700EBF041 = {
 			isa = PBXGroup;
 			children = (
@@ -64,6 +74,7 @@
 			isa = PBXGroup;
 			children = (
 				85BDBA63291203A800C899DD /* Views */,
+				850103DE29215CB2007E8141 /* ViewModels */,
 				85BDBA622912037D00C899DD /* Models */,
 				85758C4D290D140700EBF041 /* Code_HistoryApp.swift */,
 				85758C51290D140800EBF041 /* Assets.xcassets */,
@@ -171,6 +182,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				850103E029215CD2007E8141 /* GameViewModel.swift in Sources */,
 				85BDBA5D290F73B200C899DD /* Question.swift in Sources */,
 				85E78013291D5E33004F6C72 /* WelcomeView.swift in Sources */,
 				85BDBA612912032800C899DD /* Game.swift in Sources */,
