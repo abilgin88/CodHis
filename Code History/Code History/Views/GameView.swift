@@ -26,23 +26,7 @@ struct GameView: View {
                     .font(.callout)
                     .multilineTextAlignment(.leading)
                     .padding()
-                
-                //Text("What was the first computer bug?")
-                Text(question.questionText) // update from hard-code string
-                    .font(.largeTitle)
-                    .bold()
-                    .multilineTextAlignment(.leading)
-                Spacer()
-                HStack {
-                  ForEach(0..<question.possibleAnswers.count) { answerIndex in
-                    Button(action: {
-                      print("Tapped on option with the text: \(question.possibleAnswers[answerIndex])")
-                        //mainColor = answerIndex == question.correctAnswerIndex ? GameColor.correctGuess : GameColor.incorrectGuess
-                    }, label: {
-                      ChoiceTextView(choiceText: question.possibleAnswers[answerIndex])
-                    })
-                  }
-                }
+                QuestionView(question: viewModel.currentQuestion)
             }
         }
         .foregroundColor(Color.white)

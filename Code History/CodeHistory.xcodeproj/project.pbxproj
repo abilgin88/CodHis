@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		850103E029215CD2007E8141 /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 850103DF29215CD2007E8141 /* GameViewModel.swift */; };
+		850103E429216590007E8141 /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 850103E329216590007E8141 /* QuestionView.swift */; };
 		85758C4E290D140700EBF041 /* Code_HistoryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85758C4D290D140700EBF041 /* Code_HistoryApp.swift */; };
 		85758C50290D140700EBF041 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85758C4F290D140700EBF041 /* GameView.swift */; };
 		85758C52290D140800EBF041 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85758C51290D140800EBF041 /* Assets.xcassets */; };
@@ -22,6 +23,7 @@
 
 /* Begin PBXFileReference section */
 		850103DF29215CD2007E8141 /* GameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModel.swift; sourceTree = "<group>"; };
+		850103E329216590007E8141 /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
 		85758C4A290D140700EBF041 /* CodeHistory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodeHistory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		85758C4D290D140700EBF041 /* Code_HistoryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Code_HistoryApp.swift; sourceTree = "<group>"; };
 		85758C4F290D140700EBF041 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
@@ -105,6 +107,7 @@
 			children = (
 				85E78016291D6899004F6C72 /* BottomTextView.swift */,
 				85758C4F290D140700EBF041 /* GameView.swift */,
+				850103E329216590007E8141 /* QuestionView.swift */,
 				85E78012291D5E33004F6C72 /* WelcomeView.swift */,
 				85E78014291D64F5004F6C72 /* GameColor.swift */,
 				85BDBA5E290F793700C899DD /* ChoiceTextView.swift */,
@@ -182,6 +185,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				850103E429216590007E8141 /* QuestionView.swift in Sources */,
 				850103E029215CD2007E8141 /* GameViewModel.swift in Sources */,
 				85BDBA5D290F73B200C899DD /* Question.swift in Sources */,
 				85E78013291D5E33004F6C72 /* WelcomeView.swift in Sources */,
