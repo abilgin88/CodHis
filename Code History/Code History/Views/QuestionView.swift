@@ -26,8 +26,9 @@ struct QuestionView: View {
                         viewModel.makeGuess(atIndex: answerIndex)
                     }) {
                         ChoiceTextView(choiceText: question.possibleAnswers[answerIndex])
+                            .background(viewModel.color(forOptionIndex: answerIndex)) // new line
                     }
-                }
+                }.disabled(viewModel.guessWasMade) // new line
             }
             if viewModel.guessWasMade {
                 Button(action: { viewModel.displayNextScreen() }) {

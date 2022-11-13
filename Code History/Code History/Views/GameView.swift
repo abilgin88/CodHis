@@ -30,6 +30,7 @@ struct GameView: View {
             }
         }
         .foregroundColor(Color.white)
+        .navigationBarHidden(true)
         .environmentObject(viewModel) // new line
     }
     
