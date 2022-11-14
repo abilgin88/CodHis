@@ -32,6 +32,11 @@ struct GameView: View {
         .foregroundColor(Color.white)
         .navigationBarHidden(true)
         .environmentObject(viewModel) // new line
+        .background(
+        NavigationLink(destination: Text("Game Over"),
+                       isActive: .constant(viewModel.gameIsOver),
+                       label: { EmptyView()})
+        )
     }
     
     struct ContentView_Previews: PreviewProvider {
