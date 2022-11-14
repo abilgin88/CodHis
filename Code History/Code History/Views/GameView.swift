@@ -33,7 +33,7 @@ struct GameView: View {
         .navigationBarHidden(true)
         .environmentObject(viewModel) // new line
         .background(
-        NavigationLink(destination: Text("Game Over"),
+            NavigationLink(destination: ScoreView(viewModel: ScoreViewModel(correctGuess: viewModel.correctGuesses, incorrectGuesses: viewModel.incorrectGuesses)) ,
                        isActive: .constant(viewModel.gameIsOver),
                        label: { EmptyView()})
         )
